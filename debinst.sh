@@ -14,7 +14,7 @@ cd ~
 git clone https://github.com/uwicode/dots ~
 mv fonts .fonts
 rm -rf .git
-git clone https://github.com/uwicode/suckless repos/suckless
+git clone https://github.com/uwicode/suckless ~/repos/suckless
 cd ~/repos/suckless
 cd dwm
 make clean install
