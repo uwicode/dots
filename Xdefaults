@@ -1,0 +1,3 @@
+URxvt*font: xft:Kochi Gothic:pixelsize=12:antialias=false:hinting=false
+URxvt*boldFont: xft:Kochi Gothic:pixelsize=12:antialias=false:hinting=false
+URxvt*scrollBar: false
