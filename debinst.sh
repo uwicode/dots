@@ -7,7 +7,7 @@ dpkg -i fastfetch-linux-amd64.deb
 apt install -f
 
 apt install xserver-xorg-core xinit x11-xserver-utils libx11-dev libxinerama-dev libxft-dev -y
-apt install pamix nmctl -y
+apt install pamix -y
 apt install build-essential git make -y
 
 cd ~
