@@ -1,0 +1,13 @@
+#must be done manually, using # for readability
+#first run:
+sudo X -configure
+
+#nano /root/xorg.conf.new
+#edit file as so (add "Modes" line with your resolution after "Depth 24" line in generated file)
+Depth     24
++Modes "1280x720"
+
+#copy edited file to correct folder
+sudo cp /root/xorg.conf.new /etc/X11/xorg.conf
+
+#done! ^_^
